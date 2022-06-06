@@ -19,7 +19,9 @@ export default function AboutMeCard() {
                 >
                     <Grid
                         item
-                        xs={2}
+                        xs={12}
+                        sm={3}
+                        md={4}
                     >
                         <FitImage
                             height='100%'
@@ -28,7 +30,9 @@ export default function AboutMeCard() {
                     </Grid>
                     <Grid
                         item
-                        xs={10}
+                        xs={12}
+                        sm={9}
+                        md={8}
                         style={{
                             paddingLeft: '2em',
                         }}
