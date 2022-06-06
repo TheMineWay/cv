@@ -2,6 +2,7 @@
   "id": "/CV/",
   "short_name": "Joel Campos CV",
   "name": "Web portfolio - Joel Campos",
+  "description": "Web portfolio for Joel Campos Oliva (me) made up using React",
   "icons": [
     {
       "src": "favicon.ico",
