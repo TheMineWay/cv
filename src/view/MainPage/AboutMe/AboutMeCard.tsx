@@ -1,5 +1,5 @@
 import { Card, CardContent, Grid, IconButton } from '@mui/material';
-import FitImage from '../../components/images/FitImage';
+import FitImage from '../../../components/images/FitImage';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -47,7 +47,7 @@ export default function AboutMeCard() {
                     >
                         <FitImage
                             height='100%'
-                            src={require('../../resources/MainPage/joel_campos_profile.jpg')}
+                            src={require('../../../resources/MainPage/joel_campos_profile.jpg')}
                         />
                     </Grid>
                     <Grid
