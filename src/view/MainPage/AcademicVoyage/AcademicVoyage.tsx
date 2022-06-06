@@ -38,7 +38,7 @@ export default function AcademicVoyage() {
                 month: 6,
                 day: 20,
             },
-        }
+        },
     ];
 
     return (
