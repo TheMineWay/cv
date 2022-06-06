@@ -10,11 +10,11 @@ type Social = {
 
 const social: Social[] = [
     {
-        icon: <LinkedInIcon/>,
+        icon: <LinkedInIcon fontSize='large'/>,
         link: 'https://www.linkedin.com/in/joelcamposoliva/',
     },
     {
-        icon: <GitHubIcon/>,
+        icon: <GitHubIcon fontSize='large'/>,
         link: 'https://github.com/TheMineWay',
     },
 ];
@@ -57,6 +57,7 @@ export default function AboutMeCard() {
                         md={8}
                         style={{
                             paddingLeft: '2em',
+                            paddingRight: '2em',
                             paddingBottom: '2em',
                             display: 'flex',
                             alignContent: 'space-between',
@@ -70,6 +71,11 @@ export default function AboutMeCard() {
                             }}
                         >
                             <h1>Joel Campos Oliva</h1>
+                            <p
+                                style={{
+                                    textAlign: 'justify',
+                                }}
+                            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ante in tortor vehicula tincidunt. Nam at pharetra diam. Maecenas dapibus lacus id metus eleifend, eu posuere nisi porta. Phasellus nisl sem, pharetra ut pharetra ac, molestie vel enim. Suspendisse enim lorem, dapibus quis mauris a, ultricies efficitur risus. Donec tincidunt auctor tortor a consectetur. Fusce sagittis laoreet malesuada. Vivamus vitae lacus sit amet justo mattis eleifend. Nulla eu semper nisi, non gravida mi. Mauris porta odio enim, et ornare nibh tristique a. Sed non faucibus metus, vel volutpat ligula. Nam ac lacus a ante cursus elementum. Praesent hendrerit porta felis, at accumsan sapien tincidunt at. Ut finibus tortor odio, non viverra mi rutrum sed. Vestibulum nisl massa, tristique eget tristique convallis, ultrices at orci. Vestibulum lorem purus, laoreet sed erat et, vestibulum mattis mauris.</p>
                         </div>
                         <div>
                             {
