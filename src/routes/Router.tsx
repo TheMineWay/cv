@@ -12,6 +12,7 @@ export default function Router() {
                             <Route
                                 path={route.path}
                                 element={route.component}
+                                key={route.path}
                             />
                         ))
                     }
