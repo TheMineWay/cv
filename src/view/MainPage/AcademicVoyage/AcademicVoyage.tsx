@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@mui/material";
-import { DateTime } from "luxon";
 import GenericStepper, { GenericStep } from "../../../components/steps/GenericStepper";
 
 export default function AcademicVoyage() {
@@ -14,6 +13,7 @@ export default function AcademicVoyage() {
             },
             to: {
                 year: 2020,
+                month: 6,
             },
         },
         {
@@ -25,6 +25,18 @@ export default function AcademicVoyage() {
             },
             to: {
                 year: 2022,
+                month: 6,
+                day: 21,
+            },
+        },
+        {
+            title: 'Ironhack',
+            subtitle: 'Backend Bootcamp',
+            imageSrc: require('../../../resources/MainPage/AcademicVoyage/ironhack_logo.png'),
+            from: {
+                year: 2022,
+                month: 6,
+                day: 20,
             },
         }
     ];

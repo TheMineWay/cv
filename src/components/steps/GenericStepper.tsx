@@ -22,13 +22,14 @@ export default function GenericStepper(props: Props) {
                 props.steps.map((step, i) => (
                     <Step
                         key={`step_${i}_${DateTime.now().set(step.from).toMillis()}`}
+                        active={(!step.to || DateTime.fromObject(step.to) <= DateTime.now()) && DateTime.fromObject(step.from) <= DateTime.now()}
                     >
                         <StepLabel
                             icon={(
                                 <img
                                     src={step.imageSrc}
                                     style={{
-                                        height: '2em'
+                                        height: '2em',
                                     }}
                                 />
                             )}
