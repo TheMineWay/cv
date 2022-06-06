@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: gainsboro;
+}
+
+*::selection {
+  background-color: #1976d2;
+  color: #FFFFFF;
+}

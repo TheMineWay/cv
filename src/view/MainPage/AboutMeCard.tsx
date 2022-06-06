@@ -16,7 +16,7 @@ const social: Social[] = [
     {
         icon: <GitHubIcon/>,
         link: 'https://github.com/TheMineWay',
-    }
+    },
 ];
 
 const navigate = (url: string) => {
