@@ -1,4 +1,3 @@
-import { CardContent } from "@mui/material";
 import WorkExperienceDisplay, { WorkExperience as WorkExperienceType } from "./WorkExperienceDisplay";
 
 export default function WorkExperience() {
@@ -31,10 +30,8 @@ export default function WorkExperience() {
     ];
 
     return (
-        <CardContent>
-            <WorkExperienceDisplay
-                experience={experience}
-            />
-        </CardContent>
+        <WorkExperienceDisplay
+            experience={experience}
+        />
     );
 }
