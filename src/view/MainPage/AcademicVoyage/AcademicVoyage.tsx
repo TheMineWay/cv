@@ -6,7 +6,7 @@ export default function AcademicVoyage() {
     const steps: GenericStep[] = [
         {
             title: 'Cultural Badalona',
-            subtitle: 'SMX',
+            subtitle: 'SMX - 8,2',
             imageSrc: require('../../../resources/MainPage/AcademicVoyage/cultural_logo.png'),
             from: {
                 year: 2018,
@@ -18,7 +18,7 @@ export default function AcademicVoyage() {
         },
         {
             title: 'Cultural Badalona',
-            subtitle: 'ASIX',
+            subtitle: 'ASIX - 9,35 M.H',
             imageSrc: require('../../../resources/MainPage/AcademicVoyage/cultural_logo.png'),
             from: {
                 year: 2020,
