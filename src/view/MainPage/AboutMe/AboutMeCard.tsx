@@ -75,7 +75,10 @@ export default function AboutMeCard() {
                                 style={{
                                     textAlign: 'justify',
                                 }}
-                            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ante in tortor vehicula tincidunt. Nam at pharetra diam. Maecenas dapibus lacus id metus eleifend, eu posuere nisi porta. Phasellus nisl sem, pharetra ut pharetra ac, molestie vel enim. Suspendisse enim lorem, dapibus quis mauris a, ultricies efficitur risus. Donec tincidunt auctor tortor a consectetur. Fusce sagittis laoreet malesuada. Vivamus vitae lacus sit amet justo mattis eleifend. Nulla eu semper nisi, non gravida mi. Mauris porta odio enim, et ornare nibh tristique a. Sed non faucibus metus, vel volutpat ligula. Nam ac lacus a ante cursus elementum. Praesent hendrerit porta felis, at accumsan sapien tincidunt at. Ut finibus tortor odio, non viverra mi rutrum sed. Vestibulum nisl massa, tristique eget tristique convallis, ultrices at orci. Vestibulum lorem purus, laoreet sed erat et, vestibulum mattis mauris.</p>
+                            >
+                                <p>I am in love with programming. I spend hours learning about new features, frameworks, methodologies and working in personal projects so I never get outdated.</p>
+                                <p>If I had to describe myself in one word I would do it with the work "curious", because I am always trying to learn new things if I am able to.</p>
+                            </p>
                         </div>
                         <div>
                             {
