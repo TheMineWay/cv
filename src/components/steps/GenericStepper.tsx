@@ -36,28 +36,35 @@ export default function GenericStepper(props: Props) {
                         alternativeLabel
                     >
                         {
-                            dividedStep.map((step, i) => (
-                                <Step
-                                    key={`step_${i}_${DateTime.now().set(step.from).toMillis()}`}
-                                    active={(!step.to || DateTime.fromObject(step.to) <= DateTime.now()) && DateTime.fromObject(step.from) <= DateTime.now()}
-                                >
-                                    <StepLabel
-                                        icon={(
-                                            <img
-                                                src={step.imageSrc}
-                                                style={{
-                                                    height: '2em',
-                                                }}
-                                                alt={'Logo'}
-                                            />
-                                        )}
+                            dividedStep.map((step, i) => {
+
+                                const to = step.to && DateTime.fromObject(step.to).toMillis() - DateTime.fromObject(step.from).toMillis();
+                                const now = DateTime.now().toMillis() - DateTime.fromObject(step.from).toMillis();
+                                const percent = to === undefined ? 100 : ((now * 100) / to);
+
+                                return (
+                                    <Step
+                                        key={`step_${i}_${DateTime.now().set(step.from).toMillis()}`}
+                                        active={(!step.to || DateTime.fromObject(step.to) <= DateTime.now()) && DateTime.fromObject(step.from) <= DateTime.now()}
                                     >
-                                        <b>{step.title}</b>
-                                        <p>{step.subtitle}</p>
-                                        <small>{step.from.year}{step.to && (<> - {step.to.year}</>)}</small>
-                                    </StepLabel>
-                                </Step>
-                            ))
+                                        <StepLabel
+                                            icon={(
+                                                <img
+                                                    src={step.imageSrc}
+                                                    style={{
+                                                        height: '2em',
+                                                    }}
+                                                    alt={'Logo'}
+                                                />
+                                            )}
+                                        >
+                                            <b>{step.title}{percent < 100 && ` - ${Math.floor(percent)}%`}</b>
+                                            <p>{step.subtitle}</p>
+                                            <small>{step.from.year}{step.to && (<> - {step.to.year}</>)}</small>
+                                        </StepLabel>
+                                    </Step>
+                                );
+                            })
                         }
                     </Stepper>
                 ))
