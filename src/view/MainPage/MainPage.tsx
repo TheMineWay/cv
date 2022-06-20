@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import SectionTitle from "../../components/titles/SectionTitle";
 import AboutMe from "./AboutMe/AboutMe";
 import AcademicVoyage from "./AcademicVoyage/AcademicVoyage";
+import WorkExperience from "./WorkExperience/WorkExperience";
 
 type Section = {
     title?: string;
@@ -13,6 +14,10 @@ export default function MainPage() {
     const parts: Section[] = [
         {
             component: <AboutMe />,
+        },
+        {
+            title: 'Work experience',
+            component: <WorkExperience/>,
         },
         {
             title: 'Education',
