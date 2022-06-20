@@ -31,12 +31,16 @@ export default function AcademicVoyage() {
         },
         {
             title: 'Ironhack',
-            subtitle: 'Backend Bootcamp',
+            subtitle: 'Java Backend Bootcamp',
             imageSrc: require('../../../resources/MainPage/AcademicVoyage/ironhack_logo.png'),
             from: {
                 year: 2022,
                 month: 6,
-                day: 20,
+                day: 14,
+            },
+            to: {
+                year: 2022,
+                month: 9,
             },
         },
     ];
