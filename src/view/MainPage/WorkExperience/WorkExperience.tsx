@@ -8,6 +8,7 @@ export default function WorkExperience() {
             name: 'Monolític',
             position: 'SAT',
             imageSrc: require('../../../resources/MainPage/WorkExperience/monolitic.jpg'),
+            description: 's',
             from: {
                 year: 2018,
                 month: 6,
@@ -21,6 +22,7 @@ export default function WorkExperience() {
             name: 'Primer Impacto',
             position: 'DevOps',
             imageSrc: require('../../../resources/MainPage/WorkExperience/primer-impacto.jpg'),
+            description: 's',
             from: {
                 year: 2021,
                 month: 5,

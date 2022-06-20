@@ -1,11 +1,12 @@
 import { ExpandMore } from "@mui/icons-material";
-import { Accordion, AccordionSummary } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import { DateObjectUnits, DateTime } from "luxon";
 import { useState } from "react";
 
 export type WorkExperience = {
     name: string;
     position: string;
+    description: string;
     imageSrc: string;
     from: DateObjectUnits;
     to?: DateObjectUnits;
@@ -64,6 +65,14 @@ export default function WorkExperienceDisplay(props: Props) {
                                     <p>{element.from.year} - {element.to ? element.to.year : 'now'}</p>
                                 </div>
                             </AccordionSummary>
+                            <AccordionDetails>
+                                <p
+                                    style={{
+                                        marginLeft: '2em',
+                                        marginRight: '2em',
+                                    }}
+                                >{element.description}</p>
+                            </AccordionDetails>
                         </Accordion>
                     );
                 })
