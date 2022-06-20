@@ -1,4 +1,4 @@
-import { Icon, Step, StepLabel, Stepper } from '@mui/material';
+import { Step, StepLabel, Stepper } from '@mui/material';
 import { DateObjectUnits, DateTime } from 'luxon';
 
 export type GenericStep = {
@@ -17,7 +17,7 @@ export default function GenericStepper(props: Props) {
 
     const divided: GenericStep[][] = [];
     for (let i = 0; i < props.steps.length; i++) {
-        if (i % 3 == 0 || i == 0) {
+        if (i % 3 === 0 || i === 0) {
             divided.push([]);
         }
         divided[Math.floor(i / 3)].push(props.steps[i]);
@@ -48,6 +48,7 @@ export default function GenericStepper(props: Props) {
                                                 style={{
                                                     height: '2em',
                                                 }}
+                                                alt={'Logo'}
                                             />
                                         )}
                                     >

@@ -1,12 +1,23 @@
 import { Grid } from "@mui/material";
+import SectionTitle from "../../components/titles/SectionTitle";
 import AboutMe from "./AboutMe/AboutMe";
 import AcademicVoyage from "./AcademicVoyage/AcademicVoyage";
 
+type Section = {
+    title?: string;
+    component: JSX.Element;
+}
+
 export default function MainPage() {
 
-    const parts: JSX.Element[] = [
-        <AboutMe />,
-        <AcademicVoyage />,
+    const parts: Section[] = [
+        {
+            component: <AboutMe />,
+        },
+        {
+            title: 'Education',
+            component: <AcademicVoyage />,
+        },
     ];
 
     return (
@@ -20,7 +31,12 @@ export default function MainPage() {
                         item
                         xs={12}
                     >
-                        {part}
+                        {
+                            part.title && (
+                                <SectionTitle>{part.title}</SectionTitle>
+                            )
+                        }
+                        {part.component}
                     </Grid>
                 ))
             }
