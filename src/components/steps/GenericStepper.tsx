@@ -58,7 +58,7 @@ export default function GenericStepper(props: Props) {
                                                 />
                                             )}
                                         >
-                                            <b>{step.title}{percent < 100 && ` - ${Math.floor(percent)}%`}</b>
+                                            <b>{step.title}{(percent < 100 && percent >= 0) && ` - ${Math.floor(percent)}%`}</b>
                                             <p>{step.subtitle}</p>
                                             <small>{step.from.year}{step.to && (<> - {step.to.year}</>)}</small>
                                         </StepLabel>
