@@ -14,7 +14,13 @@ export default function Perks() {
             name: 'TypeScript',
             description: "I've been working with TS in a lot of frontend and backend projects (professional and personal).",
             imageSrc: require('../../../resources/MainPage/Perks/typescript.png'),
-        }
+        },
+        {
+            level: PerkLevel.intermediate,
+            name: 'React',
+            description: "A JavaScript library I used in lots of personal and professional projects since I discovered it in 2021.",
+            imageSrc: require('../../../resources/MainPage/Perks/react.png'),
+        },
     ];
 
     return (
