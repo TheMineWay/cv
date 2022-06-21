@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import SectionTitle from "../../components/titles/SectionTitle";
 import AboutMe from "./AboutMe/AboutMe";
 import AcademicVoyage from "./AcademicVoyage/AcademicVoyage";
+import Certifications from "./Certifications/Certifications";
 import Perks from "./Perks/Perks";
 import WorkExperience from "./WorkExperience/WorkExperience";
 
@@ -23,6 +24,10 @@ export default function MainPage() {
         {
             title: 'Education',
             component: <AcademicVoyage />,
+        },
+        {
+            title: 'Certifications',
+            component: <Certifications/>,
         },
         {
             title: 'Perks',
