@@ -27,6 +27,12 @@ export default function Perks() {
             description: "A framework I used a few times to develop some projects such as a COVID-19 passport manager and a online password manager.",
             imageSrc: require('../../../resources/MainPage/Perks/flutter.png'),
         },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Azure',
+            description: "A cloud service I use in my day to day professional routine.",
+            imageSrc: require('../../../resources/MainPage/Perks/azure.png'),
+        },
     ];
 
     return (
