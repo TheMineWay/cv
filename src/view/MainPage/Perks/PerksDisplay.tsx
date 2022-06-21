@@ -41,7 +41,7 @@ export default function PerksDisplay(props: Props) {
         <Grid
             container
             justifyContent='center'
-            gap={[3, 3]}
+            gap={[2, 2]}
         >
             {
                 perks.map((perk) => {
@@ -49,8 +49,9 @@ export default function PerksDisplay(props: Props) {
                     return (
                         <Grid
                             item
-                            xs={6}
-                            md={3}
+                            xs={12}
+                            sm={5.75}
+                            md={2.75}
                         >
                             <Card
                                 style={{
