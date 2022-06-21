@@ -12,6 +12,7 @@ export default function CertificationsDisplay(props: Props) {
     const providerIcon = (provider?: CertificationProvider): string | undefined => {
         switch (provider) {
             case CertificationProvider.microsoft: return require('../../../resources/CertificationProviders/microsoft.png');
+            case CertificationProvider.fundae: return require('../../../resources/CertificationProviders/fundae.png');
             default: return undefined;
         }
     }
@@ -19,6 +20,10 @@ export default function CertificationsDisplay(props: Props) {
     return (
         <Grid
             container
+            style={{
+                gap: '1em',
+            }}
+            justifyContent='center'
         >
             {
                 certifications.map((certification) => {
@@ -26,9 +31,9 @@ export default function CertificationsDisplay(props: Props) {
                     return (
                         <Grid
                             item
-                            xs={12}
-                            md={6}
-                            xl={4}
+                            xs={11.70}
+                            md={5.70}
+                            xl={3.80}
                         >
                             <Paper
                                 style={{
@@ -59,7 +64,11 @@ export default function CertificationsDisplay(props: Props) {
                                     </div>
                                     <div>
                                         <h3>{certification.name}</h3>
-                                        <p>{certification.code && `${certification.code} - `}{certification.id}</p>
+                                        <p>
+                                            {certification.code && <><b>Code: </b>{certification.code}</>}
+                                            {(certification.id && certification.code) && <> </>}
+                                            {certification.id && <><b>ID: </b>{certification.id}</>}
+                                        </p>
                                     </div>
                                 </div>
                                 <div>
