@@ -65,8 +65,6 @@ export default function CertificationsDisplay(props: Props) {
                                     <div>
                                         <h3>{certification.name}</h3>
                                         <p>
-                                            {certification.code && <><b>Code: </b>{certification.code}</>}
-                                            {(certification.id && certification.code) && <> </>}
                                             {certification.id && <><b>ID: </b>{certification.id}</>}
                                         </p>
                                     </div>
