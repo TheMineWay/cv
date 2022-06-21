@@ -30,7 +30,7 @@ export default function Perks() {
         {
             level: PerkLevel.intermediate,
             name: 'Azure',
-            description: "A cloud service I use in my day to day professional routine.",
+            description: "A cloud service I use in my professional routine.",
             imageSrc: require('../../../resources/MainPage/Perks/azure.png'),
         },
     ];
