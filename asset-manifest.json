@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.073c9b0a.css",
-    "main.js": "/CV/static/js/main.7560def1.js",
+    "main.css": "/CV/static/css/main.109128a6.css",
+    "main.js": "/CV/static/js/main.b069aa31.js",
     "static/js/787.c1112931.chunk.js": "/CV/static/js/787.c1112931.chunk.js",
+    "static/media/joel_campos_profile.jpg": "/CV/static/media/joel_campos_profile.a4381629caa1fd1911e4.jpg",
+    "static/media/react.png": "/CV/static/media/react.a544fd8cf64d82898e91.png",
+    "static/media/azure.png": "/CV/static/media/azure.27603aaf1cc44b44deae.png",
     "service-worker.js": "/CV/service-worker.js",
+    "static/media/monolitic.jpg": "/CV/static/media/monolitic.e86c54f86ff5a154c702.jpg",
+    "static/media/typescript.png": "/CV/static/media/typescript.c4105801aadf2606ac30.png",
+    "static/media/ironhack_logo.png": "/CV/static/media/ironhack_logo.dec21675423eaf929f5b.png",
+    "static/media/c-sharp.png": "/CV/static/media/c-sharp.7f58ab59750a276a404e.png",
+    "static/media/fundae.png": "/CV/static/media/fundae.2020a94dc5ba69d5107d.png",
+    "static/media/cultural_logo.png": "/CV/static/media/cultural_logo.30331a30a82907830c6c.png",
     "index.html": "/CV/index.html",
-    "main.073c9b0a.css.map": "/CV/static/css/main.073c9b0a.css.map",
-    "main.7560def1.js.map": "/CV/static/js/main.7560def1.js.map",
+    "main.109128a6.css.map": "/CV/static/css/main.109128a6.css.map",
+    "main.b069aa31.js.map": "/CV/static/js/main.b069aa31.js.map",
     "787.c1112931.chunk.js.map": "/CV/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7560def1.js"
+    "static/css/main.109128a6.css",
+    "static/js/main.b069aa31.js"
   ]
 }
