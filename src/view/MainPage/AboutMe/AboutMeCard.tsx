@@ -10,11 +10,11 @@ type Social = {
 
 const social: Social[] = [
     {
-        icon: <LinkedInIcon fontSize='large'/>,
+        icon: <LinkedInIcon fontSize='large' />,
         link: 'https://www.linkedin.com/in/joelcamposoliva/',
     },
     {
-        icon: <GitHubIcon fontSize='large'/>,
+        icon: <GitHubIcon fontSize='large' />,
         link: 'https://github.com/TheMineWay',
     },
 ];
@@ -48,6 +48,7 @@ export default function AboutMeCard() {
                         <FitImage
                             height='100%'
                             src={require('../../../resources/MainPage/joel_campos_profile.jpg')}
+                            alt='Joel Campos'
                         />
                     </Grid>
                     <Grid
