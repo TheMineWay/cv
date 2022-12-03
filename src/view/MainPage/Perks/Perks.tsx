@@ -35,14 +35,14 @@ export default function Perks() {
         },
         {
             level: PerkLevel.intermediate,
-            name: 'Java',
-            description: 'A programming language I used to develop APIs using Springboot (with JPA, lombook, etc).',
-            imageSrc: require('../../../resources/MainPage/Perks/java.png'),
+            name: 'Spring Boot',
+            description: 'A backend Java framework used to develop scalable APIs. I also used some well-known components (JPA, lombook, JUnit...)',
+            imageSrc: require('../../../resources/MainPage/Perks/spring-boot.png'),
         },
         {
             level: PerkLevel.advanced,
             name: 'Databases',
-            description: 'I am very used to working with different database systems (MSSQL, MySQL, MariaDB, Firestore, etc). I have advanced knowledge in the DDL and DML languages, but I love using ORMs.',
+            description: 'I am very used to working with different database systems (MSSQL, MySQL, MariaDB, Firestore...). I have advanced knowledge in the DDL and DML languages, but I love using ORMs.',
             imageSrc: require('../../../resources/MainPage/Perks/databases.png'),
         },
         {
@@ -50,6 +50,12 @@ export default function Perks() {
             name: 'Docker',
             description: 'An isolated code environment I use in my daily routine to develop almost all my projects.',
             imageSrc: require('../../../resources/MainPage/Perks/docker.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'NestJS',
+            description: 'A Node.js (TypeScript based) backend framework used to develop APIs (I commonly use it with Sequelize, class-validator, class-transformer and Axios).',
+            imageSrc: require('../../../resources/MainPage/Perks/nestjs.png'),
         },
     ];
 
