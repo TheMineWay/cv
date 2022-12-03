@@ -4,18 +4,6 @@ export default function Perks() {
 
     const perks: Perk[] = [
         {
-            level: PerkLevel.advanced,
-            name: '.NET',
-            description: 'I worked with C# in lots of personal projects, some of them are Unity projects.',
-            imageSrc: require('../../../resources/MainPage/Perks/c-sharp.png'),
-        },
-        {
-            level: PerkLevel.advanced,
-            name: 'TypeScript',
-            description: "I've been working with TS in a lot of frontend and backend projects (professional and personal).",
-            imageSrc: require('../../../resources/MainPage/Perks/typescript.png'),
-        },
-        {
             level: PerkLevel.intermediate,
             name: 'React',
             description: "A JavaScript library I used in lots of personal and professional projects since I discovered it in 2021.",
@@ -56,6 +44,12 @@ export default function Perks() {
             name: 'Databases',
             description: 'I am very used to working with different database systems (MSSQL, MySQL, MariaDB, Firestore, etc). I have advanced knowledge in the DDL and DML languages, but I love using ORMs.',
             imageSrc: require('../../../resources/MainPage/Perks/databases.png'),
+        },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Docker',
+            description: 'An isolated code environment I use in my daily routine to develop almost all my projects.',
+            imageSrc: require('../../../resources/MainPage/Perks/docker.png'),
         },
     ];
 
