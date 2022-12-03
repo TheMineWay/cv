@@ -31,7 +31,7 @@ export default function MainPage() {
             component: <Certifications />,
         },
         {
-            title: 'Perks',
+            title: 'Well-known',
             component: <Perks />,
         },
         {
