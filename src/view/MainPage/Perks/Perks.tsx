@@ -45,6 +45,12 @@ export default function Perks() {
             description: 'A code versioning tool I am very used to work with.',
             imageSrc: require('../../../resources/MainPage/Perks/git.png'),
         },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Java',
+            description: 'A programming language I used to develop APIs using Springboot (with JPA, lombook, etc).',
+            imageSrc: require('../../../resources/MainPage/Perks/java.png'),
+        },
     ];
 
     return (
