@@ -33,6 +33,12 @@ export default function Perks() {
             description: "A cloud service I use in my professional routine. I am also familiar with their DevOps services.",
             imageSrc: require('../../../resources/MainPage/Perks/azure.png'),
         },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Firebase',
+            description: 'A cloud service that allows developers to integrate their apps with the cloud easily.',
+            imageSrc: require('../../../resources/MainPage/Perks/firebase.png')
+        },
     ];
 
     return (
