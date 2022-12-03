@@ -57,6 +57,18 @@ export default function Perks() {
             description: 'A Node.js (TypeScript based) backend framework used to develop APIs (I commonly use it with Sequelize, class-validator, class-transformer and Axios).',
             imageSrc: require('../../../resources/MainPage/Perks/nestjs.png'),
         },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Microservices infrastructure',
+            description: 'I love microservices based solutions. I developed lots of personal projects following this structure.',
+            imageSrc: require('../../../resources/MainPage/Perks/microservices.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'Agile',
+            description: 'A project management framework I follow in all professional projects.',
+            imageSrc: require('../../../resources/MainPage/Perks/agile.png'),
+        },
     ];
 
     return (
