@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe/AboutMe";
 import AcademicVoyage from "./AcademicVoyage/AcademicVoyage";
 import Certifications from "./Certifications/Certifications";
 import Perks from "./Perks/Perks";
+import ProgrammingLanguages from "./ProgrammingLanguages/ProgrammingLanguages";
 import WorkExperience from "./WorkExperience/WorkExperience";
 
 type Section = {
@@ -19,7 +20,7 @@ export default function MainPage() {
         },
         {
             title: 'Work experience',
-            component: <WorkExperience/>,
+            component: <WorkExperience />,
         },
         {
             title: 'Education',
@@ -27,34 +28,41 @@ export default function MainPage() {
         },
         {
             title: 'Certifications',
-            component: <Certifications/>,
+            component: <Certifications />,
         },
         {
-            title: 'Perks',
-            component: <Perks/>,
+            title: 'Well-known',
+            component: <Perks />,
+        },
+        {
+            title: 'Programming languages',
+            component: <ProgrammingLanguages />,
         },
     ];
 
     return (
-        <Grid
-            container
-            spacing={4}
-        >
-            {
-                parts.map((part) => (
-                    <Grid
-                        item
-                        xs={12}
-                    >
-                        {
-                            part.title && (
-                                <SectionTitle>{part.title}</SectionTitle>
-                            )
-                        }
-                        {part.component}
-                    </Grid>
-                ))
-            }
-        </Grid>
+        <>
+            <Grid
+                container
+                spacing={4}
+            >
+                {
+                    parts.map((part) => (
+                        <Grid
+                            item
+                            xs={12}
+                        >
+                            {
+                                part.title && (
+                                    <SectionTitle>{part.title}</SectionTitle>
+                                )
+                            }
+                            {part.component}
+                        </Grid>
+                    ))
+                }
+            </Grid>
+            <br />
+        </>
     );
 }

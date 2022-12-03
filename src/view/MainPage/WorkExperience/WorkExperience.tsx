@@ -21,7 +21,7 @@ export default function WorkExperience() {
             name: 'Primer Impacto',
             position: 'DevOps',
             imageSrc: require('../../../resources/MainPage/WorkExperience/primer-impacto.jpg'),
-            description: 'I am working there as a Junior DevOps. My work consists in developing solutions for data integrations, web applications and backend services. I work with some modern technologies such as Node.JS, React and Flutter.',
+            description: 'I am working there as a Junior DevOps (fullstack developer). My work consists in developing solutions for data integrations, web applications and backend services. I work with some modern technologies such as Node.JS (NestJS, sequelize, etc), React and Flutter.',
             from: {
                 year: 2021,
                 month: 5,

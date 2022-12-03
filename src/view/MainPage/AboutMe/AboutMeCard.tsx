@@ -10,11 +10,11 @@ type Social = {
 
 const social: Social[] = [
     {
-        icon: <LinkedInIcon fontSize='large'/>,
+        icon: <LinkedInIcon fontSize='large' />,
         link: 'https://www.linkedin.com/in/joelcamposoliva/',
     },
     {
-        icon: <GitHubIcon fontSize='large'/>,
+        icon: <GitHubIcon fontSize='large' />,
         link: 'https://github.com/TheMineWay',
     },
 ];
@@ -48,6 +48,7 @@ export default function AboutMeCard() {
                         <FitImage
                             height='100%'
                             src={require('../../../resources/MainPage/joel_campos_profile.jpg')}
+                            alt='Joel Campos'
                         />
                     </Grid>
                     <Grid
@@ -76,8 +77,18 @@ export default function AboutMeCard() {
                                     textAlign: 'justify',
                                 }}
                             >
-                                <p>I am in love with programming. I spend hours learning about new features, frameworks, methodologies and working in personal projects so I never get outdated.</p>
-                                <p>If I had to describe myself in one word I would do it with the work "curious", because I am always trying to learn new things if I am able to.</p>
+                                <p>Junior full stack developer (DevOps).</p>
+                                <p>+5 years of programming experience (lots of GitHub projects. Some of them in private repositories).</p>
+                                <p>I am a passionate developer, very used to work with technologies such as Node.js, .NET, Java, React, among others.</p>
+                                <p>I have worked with some well-known frameworks:</p>
+                                <ul>
+                                    <li>Nest.js for server side Node applications.</li>
+                                    <li>Springboot for Java APIs.</li>
+                                    <li>Flutter for mobile apps.</li>
+                                </ul>
+                                <p>I always work with git (in GitHub or Azure DevOps) and follow the SCRUM framework.</p>
+                                <p>My most used programming language is TypeScript. I use to create PWA applications using React for the front and Node.js (Nest.js) as the server. Depending on the project the database is MariaDB or MySQL (I know others). I love using ORMs but I know how to write SQL.</p>
+                                <p>Dockerizing apps is now my passion 🐋.</p>
                             </p>
                         </div>
                         <div>

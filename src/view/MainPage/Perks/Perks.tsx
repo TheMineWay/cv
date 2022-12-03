@@ -4,18 +4,6 @@ export default function Perks() {
 
     const perks: Perk[] = [
         {
-            level: PerkLevel.advanced,
-            name: '.NET',
-            description: 'I worked with C# in lots of personal projects, some of them are Unity projects.',
-            imageSrc: require('../../../resources/MainPage/Perks/c-sharp.png'),
-        },
-        {
-            level: PerkLevel.advanced,
-            name: 'TypeScript',
-            description: "I've been working with TS in a lot of frontend and backend projects (professional and personal).",
-            imageSrc: require('../../../resources/MainPage/Perks/typescript.png'),
-        },
-        {
             level: PerkLevel.intermediate,
             name: 'React',
             description: "A JavaScript library I used in lots of personal and professional projects since I discovered it in 2021.",
@@ -33,11 +21,59 @@ export default function Perks() {
             description: "A cloud service I use in my professional routine. I am also familiar with their DevOps services.",
             imageSrc: require('../../../resources/MainPage/Perks/azure.png'),
         },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Firebase',
+            description: 'A cloud service that allows developers to integrate their apps with the cloud easily.',
+            imageSrc: require('../../../resources/MainPage/Perks/firebase.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'Git',
+            description: 'A code versioning tool I am very used to work with.',
+            imageSrc: require('../../../resources/MainPage/Perks/git.png'),
+        },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Spring Boot',
+            description: 'A backend Java framework used to develop scalable APIs. I also used some well-known components (JPA, lombook, JUnit...)',
+            imageSrc: require('../../../resources/MainPage/Perks/spring-boot.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'Databases',
+            description: 'I am very used to working with different database systems (MSSQL, MySQL, MariaDB, Firestore...). I have advanced knowledge in the DDL and DML languages, but I love using ORMs.',
+            imageSrc: require('../../../resources/MainPage/Perks/databases.png'),
+        },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Docker',
+            description: 'An isolated code environment I use in my daily routine to develop almost all my projects.',
+            imageSrc: require('../../../resources/MainPage/Perks/docker.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'NestJS',
+            description: 'A Node.js (TypeScript based) backend framework used to develop APIs (I commonly use it with Sequelize, class-validator, class-transformer and Axios).',
+            imageSrc: require('../../../resources/MainPage/Perks/nestjs.png'),
+        },
+        {
+            level: PerkLevel.intermediate,
+            name: 'Microservices infrastructure',
+            description: 'I love microservices based solutions. I developed lots of personal projects following this structure.',
+            imageSrc: require('../../../resources/MainPage/Perks/microservices.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'Agile',
+            description: 'A project management framework I follow in all professional projects.',
+            imageSrc: require('../../../resources/MainPage/Perks/agile.png'),
+        },
     ];
 
     return (
         <PerksDisplay
-            perks={perks}
+            perks={perks.sort(({ level: a }, { level: b }) => b - a)}
         />
     );
 }
