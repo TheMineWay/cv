@@ -1,25 +1,34 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.109128a6.css",
-    "main.js": "/CV/static/js/main.b069aa31.js",
+    "main.js": "/CV/static/js/main.5ad542a1.js",
     "static/js/787.c1112931.chunk.js": "/CV/static/js/787.c1112931.chunk.js",
     "static/media/joel_campos_profile.jpg": "/CV/static/media/joel_campos_profile.a4381629caa1fd1911e4.jpg",
+    "static/media/python.png": "/CV/static/media/python.ecfb4e6faf26def45e95.png",
     "static/media/react.png": "/CV/static/media/react.a544fd8cf64d82898e91.png",
     "static/media/azure.png": "/CV/static/media/azure.27603aaf1cc44b44deae.png",
+    "static/media/php.png": "/CV/static/media/php.a7759c068d5c9f03bebf.png",
     "service-worker.js": "/CV/service-worker.js",
+    "static/media/databases.png": "/CV/static/media/databases.c9b79fbb3adf700a259a.png",
+    "static/media/java.png": "/CV/static/media/java.88e2b4ce5e7d914dcb23.png",
     "static/media/monolitic.jpg": "/CV/static/media/monolitic.e86c54f86ff5a154c702.jpg",
     "static/media/typescript.png": "/CV/static/media/typescript.c4105801aadf2606ac30.png",
+    "static/media/javascript.png": "/CV/static/media/javascript.1306d05e5ee275c5880b.png",
+    "static/media/docker.png": "/CV/static/media/docker.7fadbc97e4a5ae55a2e0.png",
     "static/media/ironhack_logo.png": "/CV/static/media/ironhack_logo.dec21675423eaf929f5b.png",
     "static/media/c-sharp.png": "/CV/static/media/c-sharp.7f58ab59750a276a404e.png",
+    "static/media/firebase.png": "/CV/static/media/firebase.236ae3e4ef05a2984f5d.png",
+    "static/media/nestjs.png": "/CV/static/media/nestjs.78696416d7b2db81078c.png",
     "static/media/fundae.png": "/CV/static/media/fundae.2020a94dc5ba69d5107d.png",
     "static/media/cultural_logo.png": "/CV/static/media/cultural_logo.30331a30a82907830c6c.png",
+    "static/media/microservices.png": "/CV/static/media/microservices.c2cb075b4251610a8296.png",
     "index.html": "/CV/index.html",
     "main.109128a6.css.map": "/CV/static/css/main.109128a6.css.map",
-    "main.b069aa31.js.map": "/CV/static/js/main.b069aa31.js.map",
+    "main.5ad542a1.js.map": "/CV/static/js/main.5ad542a1.js.map",
     "787.c1112931.chunk.js.map": "/CV/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.109128a6.css",
-    "static/js/main.b069aa31.js"
+    "static/js/main.5ad542a1.js"
   ]
 }
