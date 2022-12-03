@@ -1,9 +1,9 @@
 import { Card, CardContent, Chip, Grid } from "@mui/material";
 
 export enum PerkLevel {
-    basic,
-    intermediate,
-    advanced,
+    basic = 0,
+    intermediate = 1,
+    advanced = 2,
 }
 
 export type Perk = {

@@ -51,11 +51,17 @@ export default function Perks() {
             description: 'A programming language I used to develop APIs using Springboot (with JPA, lombook, etc).',
             imageSrc: require('../../../resources/MainPage/Perks/java.png'),
         },
+        {
+            level: PerkLevel.advanced,
+            name: 'Databases',
+            description: 'I am very used to working with different database systems (MSSQL, MySQL, MariaDB, Firestore, etc). I have advanced knowledge in the DDL and DML languages, but I love using ORMs.',
+            imageSrc: require('../../../resources/MainPage/Perks/databases.png'),
+        },
     ];
 
     return (
         <PerksDisplay
-            perks={perks}
+            perks={perks.sort(({ level: a }, { level: b }) => b - a)}
         />
     );
 }
