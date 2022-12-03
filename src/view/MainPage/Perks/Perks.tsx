@@ -37,7 +37,13 @@ export default function Perks() {
             level: PerkLevel.intermediate,
             name: 'Firebase',
             description: 'A cloud service that allows developers to integrate their apps with the cloud easily.',
-            imageSrc: require('../../../resources/MainPage/Perks/firebase.png')
+            imageSrc: require('../../../resources/MainPage/Perks/firebase.png'),
+        },
+        {
+            level: PerkLevel.advanced,
+            name: 'Git',
+            description: 'A code versioning tool I am very used to work with.',
+            imageSrc: require('../../../resources/MainPage/Perks/git.png'),
         },
     ];
 
