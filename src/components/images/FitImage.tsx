@@ -1,6 +1,7 @@
 type Props = {
     src: string;
     height?: string;
+    alt?: string;
 }
 
 export default function FitImage(props: Props) {
@@ -11,6 +12,7 @@ export default function FitImage(props: Props) {
                 height: props.height,
                 objectFit: 'cover',
             }}
+            alt={props.alt ?? 'Image'}
             src={props.src}
         />
     );
