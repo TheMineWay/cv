@@ -13,6 +13,7 @@ export default function CertificationsDisplay(props: Props) {
         switch (provider) {
             case CertificationProvider.microsoft: return require('../../../resources/CertificationProviders/microsoft.png');
             case CertificationProvider.fundae: return require('../../../resources/CertificationProviders/fundae.png');
+            case CertificationProvider.cambridge: return require('../../../resources/CertificationProviders/cambridge.png');
             default: return undefined;
         }
     }
@@ -70,7 +71,7 @@ export default function CertificationsDisplay(props: Props) {
                                     </div>
                                 </div>
                                 <div>
-                                    <Divider/>
+                                    <Divider />
                                     <Button
                                         disabled={!certification.url}
                                         onClick={() => {
