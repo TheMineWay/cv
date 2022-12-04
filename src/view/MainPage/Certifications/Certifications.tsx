@@ -4,6 +4,7 @@ import CertificationsDisplay from "./CertificationsDisplay";
 export enum CertificationProvider {
     microsoft,
     fundae,
+    cambridge,
 }
 
 export enum CertificationValidator {
@@ -86,6 +87,16 @@ export default function Certifications() {
                 year: 2022,
                 month: 5,
                 day: 17,
+            }),
+        },
+        {
+            name: 'First Certificate (FCE)',
+            provider: CertificationProvider.cambridge,
+            id: '196ES0172679',
+            date: DateTime.fromObject({
+                year: 2019,
+                month: 8,
+                day: 1
             }),
         },
     ];
