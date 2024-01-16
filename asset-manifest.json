@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.109128a6.css",
-    "main.js": "/CV/static/js/main.4b502649.js",
+    "main.js": "/CV/static/js/main.fbb4706d.js",
     "static/js/787.c1112931.chunk.js": "/CV/static/js/787.c1112931.chunk.js",
     "static/media/cambridge.png": "/CV/static/media/cambridge.f4e974494b43a397ba38.png",
     "static/media/joel_campos_profile.jpg": "/CV/static/media/joel_campos_profile.a4381629caa1fd1911e4.jpg",
@@ -25,11 +25,11 @@
     "static/media/microservices.png": "/CV/static/media/microservices.c2cb075b4251610a8296.png",
     "index.html": "/CV/index.html",
     "main.109128a6.css.map": "/CV/static/css/main.109128a6.css.map",
-    "main.4b502649.js.map": "/CV/static/js/main.4b502649.js.map",
+    "main.fbb4706d.js.map": "/CV/static/js/main.fbb4706d.js.map",
     "787.c1112931.chunk.js.map": "/CV/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.109128a6.css",
-    "static/js/main.4b502649.js"
+    "static/js/main.fbb4706d.js"
   ]
 }
